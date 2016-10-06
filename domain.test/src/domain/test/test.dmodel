@@ -1,0 +1,7 @@
+entity person {
+	firstName:String
+	lastName:String
+	op fullName() {
+		firstName + lastName
+	}
+}
